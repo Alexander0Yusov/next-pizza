@@ -9,7 +9,6 @@ import { FormInput } from "../../../form";
 import { Button } from "@/shared/components/ui";
 import toast from "react-hot-toast";
 import { signIn } from "next-auth/react";
-import { error } from "console";
 
 interface Props {
   onClose?: VoidFunction;
